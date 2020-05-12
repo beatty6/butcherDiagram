@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    font-weight: 300;
+
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+nav {
+    margin: 50px auto;
+}
+
+.main-wrapper {
+    margin: auto;
+    width: 80vw;
+}
+
+.cow-wrapper {
+    margin: auto;
+    /*    border: 1px solid #000;*/
+    position: relative;
+    width: inherit;
+    min-width: 600px;
+    max-width: 1000px;
+
+}
+
+div.svg {
+    padding: 10px;
+    position: absolute;
+    width: inherit;
+    min-width: inherit;
+    max-width: inherit;
+}
+
+.red-parts {
+    transition: all .5s linear;
+    opacity: .1;
+}
+
+
+div.info-box {
+    padding: 10px;
+    position: relative;
+    top: 50vw;
+}
+
+
+
+
+
+
+/*THIS IS THE MEAT RATINGS PAGE*/
+
+
+.meat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.meat-grid div {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 5px;
+    height: auto;
+    min-height: 90px;
+    width: auto;
+    background-color: #e2ff26;
+}
+
+div.slider {
+    background-color: #ce003a;
+    height: 20px;
+    width: 20px;
+}
