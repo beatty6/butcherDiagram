@@ -61,28 +61,27 @@ $(document).ready(function () {
         loop: false
     });
 
-    
-//    RATINGS PAGE ***
 
-//    anime({
-//  targets: '.slider',
-//  translateX: function(el) {
-//    return el.getAttribute('data-x');
-//  },
-//  translateY: function(el, i) {
-//    return 50 + (-50 * i);
-//  },
-//  scale: function(el, i, l) {
-//    return (l - i) + .05;
-//  },
-//  rotate: function() { return anime.random(-360, 360); },
-//  borderRadius: function() { return ['5 0%', anime.random(10, 35) + '%']; },
-//  duration: function() { return anime.random(1200, 1800); },
-//  delay: function() { return anime.random(0, 400); },
-//        translateX:300,
-//  direction: 'alternate',
-//  loop: true
-//});
+    //    RATINGS PAGE ***
+    $("div.cut").mouseover(function () {
+        anime({
+            targets: '.slider',
+            translateX: 100,
+            duration: 1000,
+            direction: 'alternate',
+            loop: false
+        });
+    });
+    $("div.cut").mouseleave(function () {
+        anime({
+            targets: '.slider',
+            translateX: 0,
+            duration: 1000,
+            direction: 'alternate',
+            loop: false
+        });
+    });
+
 
 
 
